@@ -1,0 +1,301 @@
+*,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+    /*-------------------------------------------login--------------------------------------->*/
+    .contenedor1{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;
+     
+    }
+    .tituloLogin{
+        margin-top: 100px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+      .imagenLogo{
+        margin-top: -320px;
+        margin-bottom: 0;
+        margin-left:850px ;
+        margin-right:800px ;
+    }
+    .contenidoEmail{
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+    .contenidoPassword{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .botonIngresar{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .botonRecuperarContraseña{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    /*-------------------------------------------Pagina de inico--------------------------------------->*/
+    .menu{
+        background-color: #fff;
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        border-color: #7D3C98;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        z-index: 1;
+    }
+    .menu_items {
+        display: flex;
+        list-style: none;
+        margin-right: 80px;
+    }
+    
+    .menu_items li {
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+    
+    .menu_items li a {
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+    .tituloPagInicio{
+        margin-top: 150px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 70px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .subtituloInicio{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .botonComenzar{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left:250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*-------------------------------------------Pagina de Administrador--------------------------------------->*/
+    .menu_itemsAdministrador {
+        display: flex;
+        list-style: none;
+        margin-right: 200px;
+    }
+    
+    .menu_itemsAdministrador li {
+        border-radius: 3px;
+        margin: 0 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .menu_itemsAdministrador li a {
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+
+    .lateral{
+    box-sizing: border-box;
+    width: max(8%, 200px);
+    height: 100%;
+    display: inline-block;
+    position: fixed; 
+    padding-top: 30px;
+    background: #9691B7;
+    }
+    .lateral ul{
+        list-style:none;
+        padding-left:0;
+        margin-top:0;
+    }
+    .lateral ul li{
+        display:block;
+        position: relative;
+        padding: 8px 10px;
+        margin-left:0;
+        margin-bottom: 10px;
+        border-bottom:1px solid #69CCDA ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .lateral ul li a{
+        color: #fff;
+        text-decoration:none;
+    }
+    .lateral ul li a:after{
+        content: ' ';
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+    }
+    .lateral ul li:hover, .lateral ul li:hover a{
+        background: blue;
+        color: white;
+    }
+    .contenedorGeneral1{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .contenedorGrafica1{
+        margin-top: 100px;
+        margin-bottom:0;
+        margin-left:-500px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
+    }
+    .contenedorGrafica2{
+        margin-top: -141px;
+        margin-bottom: 0;
+        margin-left:-80px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .contenedorGrafica3{
+        margin-top: -140px;
+        margin-bottom: 0;
+        margin-left:340px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
+    }
+    .contenedorGrafica4{
+        margin-top: -140px;
+        margin-bottom: 0;
+        margin-left:760px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .contenedorGeneral2{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloTabla{
+        margin-top: 100px;
+        margin-bottom:0;
+        margin-left:250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .tablaAdministrador{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left:270px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+ /*-------------------------------------------Pagina de Lista de tickets--------------------------------------->*/
+    .contenedorGeneral3{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloBarraBusqueda{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .barraBusqueda{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .iconoBusqueda{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloBusqueda1{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 100px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .barra1{
+        margin-top: -22px;
+        margin-bottom:0;
+        margin-left: 150px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloBusqueda2{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 900px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoEliminar{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 550px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .contenedorGeneral4{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tablaTickets{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left:18px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;  
+    }

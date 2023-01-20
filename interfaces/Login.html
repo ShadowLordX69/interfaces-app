@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <script src="https://kit.fontawesome.com/1f866aedf4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilosInterfas.css">
+    
+    </head>
+    <body style="background-color: #080132;">
+        <div class="contenedor1">
+            <form [formGroup]="form" (submit)="send()">
+                <div class="contenedor2">
+                        <div class="tituloLogin">
+                            <label style="color: #fff;">Inicio de Sesion</label>
+                        </div>
+                <!-------------------------------------------INPUT email--------------------------------------->
+                        <div class="contenidoEmail">
+                            <label for="email"style="color: #fff;">Correo</label><br><br>
+                            <input type="text" id="email" formControlName="email"style="height: 45px; width: 350px;background:#808B96;border-color:#fff;border-radius: 10px;">
+                        </div>
+                <!-------------------------------------------INPUT Password--------------------------------------->
+                        <div class="contenidoPassword">
+                            <label for="password" style="color: #fff;">Contraseña</label><br><br>
+                            <input type="password" id="password" formControlName="password"style="height: 45px; width: 350px; background:#808B96;border-color:#fff;border-radius: 10px;"; >
+                        </div>
+
+                <!-------------------------------------------Button--------------------------------------->
+                        <div class="botonIngresar">
+                            <br><br><br><button style="height: 40px; width: 350px; color: #fff; background: #7D3C98;border-color:#7D3C98;">INGRESAR</button><br>
+                        </div>
+                        <div class="botonRecuperarContraseña">
+                            <button style="height: 40px; width: 170px; color: blueviolet; background: #fff;border-color: #fff;">OLVIDE MI CONTRASEÑA</button>
+                        </div>
+                </div>
+                <div class="imagenLogo">
+                <img src="imagenes/Logo.jpeg" alt="">
+                </div>
+            </form>
+        </div>  
+    </body>
+</html>
