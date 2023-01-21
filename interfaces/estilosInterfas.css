@@ -234,7 +234,7 @@
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif; 
     }
- /*-------------------------------------------Pagina de Lista de tickets--------------------------------------->*/
+ /*-------------------------------------------Sirve para todas las paginas de tickets--------------------------------------->*/
     .contenedorGeneral3{
         margin-top: 0;
         margin-bottom: 0;
@@ -296,6 +296,574 @@
         margin-top: 20px;
         margin-bottom:0;
         margin-left:18px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+/*-------------------------------------------Pagina Detalle de ticket--------------------------------------->*/  
+    .contenedorGeneral5{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloIdentificadorTicket{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .barraDetalle{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .icono3Lineas{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle1{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 100px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle2{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 200px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoCirculoVerde{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .barraDetalle2{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloDetalle3{
+        margin-top: 40px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle4{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 130px ;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle5{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 300px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle6{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 350px ;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle7{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 560px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle8{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 630px ;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle9{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 780px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloDetalle10{
+        margin-top: -17px;
+        margin-bottom:0;
+        margin-left: 870px ;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedorGeneral6{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .barraDetalle3{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .icono3LineasVerticales{
+        margin-top: 50px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .barraDetalle4{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloDetalle11{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 100px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tablaDetalle{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left:20px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .barraDetalle5{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tablaDetalle2{
+        margin-top: -360px;
+        margin-bottom:0;
+        margin-left:700px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .barraDetalle6{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tablaDetalle3{
+        margin-top: 200px;
+        margin-bottom:0;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .tablaDetalle4{
+        margin-top: 25px;
+        margin-bottom:0;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .tablaDetalle5{
+        margin-top: 25px;
+        margin-bottom:0;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .barraDetalle7{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .areaTexto1{
+        margin-top: 5px;
+        margin-bottom:0;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .botonDetalle{
+        margin-top: 10px;
+        margin-bottom:15px;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .iconoEnviar{
+        margin-top: -45px;
+        margin-bottom:15px;
+        margin-left:200px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+    /*-------------------------------------------Pagina Administrar Cuenta--------------------------------------->*/  
+    .contenedorGeneral7{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloAdministrar{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloAdministrar2{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar1{
+        margin-top: -25px;
+        margin-bottom:0;
+        margin-left: 400px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar2{
+        margin-top: -30px;
+        margin-bottom:0;
+        margin-left: 470px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar3{
+        margin-top: -30px;
+        margin-bottom:0;
+        margin-left: 540px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tablaAdministrar{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedorGeneral8{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tituloAdministrar3{
+        margin-top: 250px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar4{
+        margin-top: -25px;
+        margin-bottom:0;
+        margin-left: 400px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar5{
+        margin-top: -30px;
+        margin-bottom:0;
+        margin-left: 470px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoAdministrar6{
+        margin-top: -30px;
+        margin-bottom:0;
+        margin-left: 540px ;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tablaAdministrar2{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*-------------------------------------------Pagina InicioCliente--------------------------------------->*/  
+    .menu{
+        background-color: #fff;
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        border-color: #7D3C98;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        z-index: 1;
+    }
+    .menu_itemsCliente {
+        display: flex;
+        list-style: none;
+        margin-right: 400px;
+    }
+    
+    .menu_itemsCliente li {
+        border-radius: 3px;
+        margin: 0 50px;
+    }
+    
+    .menu_itemsCliente li a {
+        padding: 5px 0px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+    .contenedorImagen1{
+        margin-top: 25px;
+        margin-bottom:0;
+        margin-left:250px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .botonCrear{
+        margin-top: -40px;
+        margin-bottom:0;
+        margin-left:300px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoMasCliente{
+        margin-top: -35px;
+        margin-bottom:0;
+        margin-left: 350px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .iconoRefrescar{
+        margin-top: -33px;
+        margin-bottom:0;
+        margin-left: 400px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+/*-------------------------------------------Pagina Crear Ticket--------------------------------------->*/  
+    .tituloCrearTicket{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedorCrear{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;
+        height: 420px; 
+        background-color: #7E6BE8 ;
+    }
+    .barraCrear{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;   
+    }
+    .icono3LineasVerticales2{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 100px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloCrearTicket2{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 150px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .barraCrear2{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ; 
+    }
+    .tablaCrear{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left:70px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    .barraCrear3{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;  
+    }
+    .tablaCrear2{
+        margin-top: -360px;
+        margin-bottom:0;
+        margin-left:700px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .contenedorCrear2{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;  
+    }
+    .barraCrear4{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;   
+    }
+    .icono3linea2{
+        margin-top: 10px;
+        margin-bottom:0;
+        margin-left: 50px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tituloCrearTicket3{
+        margin-top: -27px;
+        margin-bottom:0;
+        margin-left: 90px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .LineaCrear{
+        margin-top: 15px;
+        margin-bottom:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .atributoCrear1{
+        margin-top: 40px;
+        margin-bottom:0;
+        margin-left: 80px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textoRellenar1{
+        margin-top: -20px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .atributoCrear2{
+        margin-top: 45px;
+        margin-bottom:0;
+        margin-left: 80px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textoRellenar2{
+        margin-top: -20px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .atributoCrear3{
+        margin-top: 50px;
+        margin-bottom:0;
+        margin-left: 80px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textoRellenar3{
+        margin-top: -20px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .atributoCrear4{
+        margin-top: 55px;
+        margin-bottom:0;
+        margin-left: 80px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textoRellenar4{
+        margin-top: -20px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .atributoCrear5{
+        margin-top: 60px;
+        margin-bottom:0;
+        margin-left: 80px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textoRellenar5{
+        margin-top: -20px;
+        margin-bottom:0;
+        margin-left: 250px ;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tablaCrear3{
+        margin-top: 20px;
+        margin-bottom:0;
+        margin-left:70px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    .barraCrear5{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left:0 ;   
+    }
+    .areaTexto2{
+        margin-top: 5px;
+        margin-bottom:0;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .botonCrear2{
+        margin-top: 10px;
+        margin-bottom:15px;
+        margin-left:45px ;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    .iconoEnviar2{
+        margin-top: -45px;
+        margin-bottom:15px;
+        margin-left:200px ;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;  
     }

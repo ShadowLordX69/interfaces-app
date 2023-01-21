@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tickets Requerimiento</title>
+        <script src="https://kit.fontawesome.com/1f866aedf4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilosInterfas.css">
+    
+    </head>
+    <body>
+        <nav class="menu">
+            <!--<label class="logo">consultech</label>-->
+            <img src="imagenes/Logo.jpeg" style="height: 65px; margin-left: 150px;" alt="" >
+            <ul class="menu_itemsAdministrador">
+                <li style="align-items: center;"><a href="Inicio.html"><br>Inicio</a></li>
+                <li><a href="#"><br>Tickets</a></li>
+                <li><a href="#"><br>Cuentas</a></li>
+                <li ><a href="#"><br>Informes</a></li>
+                <li ><img src="imagenes/usuario.jpg" style="height: 65px;" alt="" ></li>
+                <li style="margin-left:-10px;margin-right: 0px;" >Bienvenido<br>Email<br>Administrador</li>
+            </ul>
+        </nav>
+        <div class="contenedorGeneral3">
+            <div class="tituloBarraBusqueda">
+                <label style="color: black;">Todos los tickets</label>
+            </div>
+            <div class="barraBusqueda">
+                <div class="iconoBusqueda">
+                    <img src="imagenes/lupa.png" style="height: 30px;width: 35px;" alt="" >
+                </div>
+                <div class="tituloBusqueda1">
+                    <label style="color: black;">Buscar</label>
+                </div>
+                <div class="barra1">
+                    <input type="text" id="buscar" style="height: 35px; width: 500px;background:#B8BDBE;border-color:#fff;border-radius: 10px;margin-left: 70px;">
+                </div>
+                <div class="tituloBusqueda2">
+                    <label style="color: black;">Borrar</label>
+                </div>
+                <div class="iconoEliminar">
+                    <img src="imagenes/basurero.png" style="height: 30px;width: 35px; margin-left: 400px;" alt="" >
+                </div>
+            </div>
+        </div>
+        <div class="contenedorGeneral4">
+            <div class="tablaTickets">
+                <table CELLSPACING=35 >
+                    <tr>
+                        <td><img src="imagenes/3lineas.jpg"style="height: 20px;width: 20px;"alt="" ></td>
+                        <td>Fecha</td>
+                        <td>Id</td>
+                        <td>Asunto</td>
+                        <td>Usuario</td>
+                        <td>Entidad</td>
+                        <td>tipo</td>
+                        <td>Estado</td>
+                        <td>Asignacion</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></input></td>
+                        <td>01-01-2023 18:00</td>
+                        <td>001</td>
+                        <td>Añadir una IP a la lista blanca del servidor</td>
+                        <td>User1</td>
+                        <td>Cliente1</td>
+                        <td>Requerimiento</td>
+                        <td>Resuelto</td>
+                        <td>Analista1</td>
+                        <td><img src="imagenes/3lineas.jpg"style="height: 20px;width: 20px;"alt="" >Ver Detalles</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+ </html>

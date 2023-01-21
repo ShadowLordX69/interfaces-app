@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detalles tickets</title>
+        <script src="https://kit.fontawesome.com/1f866aedf4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilosInterfas.css">
+    
+    </head>
+    <body>
+        <nav class="menu">
+            <!--<label class="logo">consultech</label>-->
+            <img src="imagenes/Logo.jpeg" style="height: 65px; margin-left: 150px;" alt="" >
+            <ul class="menu_itemsAdministrador">
+                <li style="align-items: center;"><a href="Inicio.html"><br>Inicio</a></li>
+                <li><a href="#"><br>Tickets</a></li>
+                <li><a href="#"><br>Cuentas</a></li>
+                <li ><a href="#"><br>Informes</a></li>
+                <li ><img src="imagenes/usuario.jpg" style="height: 65px;" alt="" ></li>
+                <li style="margin-left:-10px;margin-right: 0px;" >Bienvenido<br>Email<br>Administrador</li>
+            </ul>
+        </nav>
+        <div class="contenedorGeneral5">
+            <div class="tituloIdentificadorTicket">
+                <label style="color:black;">Ticket ID 0XXX - Ver Detalle</label>
+            </div>
+            <div class="barraDetalle">
+                <div class="icono3Lineas">
+                    <img src="imagenes/3lineas.jpg" style="height: 30px;width: 35px;" alt="" >
+                </div>
+                <div class="tituloDetalle1">
+                    <label style="color: black;">#0XX</label>
+                </div>
+                <div class="tituloDetalle2">
+                    <label style="color: black;">AGREGAR UNA IP A LA LISTA BLANCA DEL SERVIDOR</label>
+                </div>
+                <div class="iconoCirculoVerde">
+                    <img src="imagenes/pngtree-olive-green-circle-clipart-png-image_2382062.webp" style="height: 30px;width: 35px; margin-left: 400px;" alt="" >
+                </div>
+            </div>
+            <div class="barraDetalle2">
+                <div class="tituloDetalle3">
+                    <label style="color: black;">Creado por</label>
+                </div>
+                <div class="tituloDetalle4">
+                    <label style="color: black;">Juan Perez</label>
+                </div>
+                <div class="tituloDetalle5">
+                    <label style="color: black;">Fecha</label>
+                </div>
+                <div class="tituloDetalle6">
+                    <label style="color: black;">01-01-2023 18:00</label>
+                </div>
+                <div class="tituloDetalle7">
+                    <label style="color: black;">Duracion</label>
+                </div>
+                <div class="tituloDetalle8">
+                    <label style="color: black;">12 horas</label>
+                </div>
+                <div class="tituloDetalle9">
+                    <label style="color: black;">Vencimiento</label>
+                </div>
+                <div class="tituloDetalle10">
+                    <label style="color: black;">02-01-2023 06:00</label>
+                </div>
+            </div>
+        </div>
+        <div class="contenedorGeneral6">
+            <div class="barraDetalle3">
+                <div class="icono3LineasVerticales">
+                    <img src="imagenes/3lineasverticales.jpg" style="height: 30px;width: 35px;" alt="" >
+                </div>
+                <div class="tituloDetalle11">
+                    <label style="color: black;">Detalles</label>
+                </div>
+            </div> 
+            <div class="barraDetalle4">
+                <div class="tablaDetalle">
+                    <table CELLSPACING=30 >
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Tipo de Solicitud</td>
+                            <td>
+                                <select name="tipoSolicitud" style="background-color: #939DCB  ;width: 125px;height: 25px;">
+                                    <option>Requerimiento</option>
+                                    <option>Consulta</option>
+                                    <option>Incidencia</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Estado</td>
+                            <td>
+                                <select name="estado" style="background-color: #939DCB ;width: 125px;height: 25px;">
+                                    <option>Abierto</option>
+                                    <option>Cerrado</option>
+                                  
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Asignado a</td>
+                            <td>
+                                <select name="asignado" style="background-color:  #939DCB ;width: 125px;height: 25px;">
+                                    <option>Analista1</option>
+                                    <option>Analista2</option>
+                                    <option>Analista3</option>
+                                </select>
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Entidad</td>
+                            <td style="background-color: #939DCB ;height: 25px;">Cliente1</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Sitio</td>
+                            <td style="background-color: #939DCB   ;height: 25px;">Direccion1</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Ultima Actualizacion</td>
+                            <td style="background-color: #939DCB   ;height: 25px;">01-01-2023 18:15</td>
+                        </tr>
+                    </table>
+                </div> 
+            </div>
+            <div class="barraDetalle5">
+                <div class="tablaDetalle2">
+                    <table CELLSPACING=30 >
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Categoria</td>
+                            <td>
+                                <select name="categoria" style="background-color:  #939DCB   ;width: 170px;height: 25px;">
+                                    <option>Servidores</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Correo</td>
+                            <td style="background-color: #939DCB   ;height: 25px;">cliente1@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #F6A261 ;height: 25px;">Telefono</td>
+                            <td style="background-color: #939DCB   ;height: 25px;">999-888-777</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="barraDetalle6">
+                <div class="tablaDetalle3">
+                    <table CELLSPACING=5 >
+                        <tr>
+                            <td style="background-color: #F6A261 ;width: 135px;">Caso</td>
+                            <td>
+                                <img src="imagenes/reloj.webp" style="height: 25px;width: 35px;" alt="" >
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tablaDetalle4">
+                    <table CELLSPACING=5 >
+                        <tr>
+                            <td style="background-color: #939DCB ;height: 70px;width: 1250px;">Se necesita agregar la IP 172.16.16.16 a la lista blanca del servidor de host SRV-0000, me confirman de la operacion para realizar las pruebas pertinentes.<br>Saludos.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tablaDetalle5">
+                    <table CELLSPACING=5 >
+                        <tr>
+                            <td><img src="imagenes/chat.png" style="height: 25px;width: 35px;" alt="" ></td>
+                            <td style="background-color: #F6A261 ;width: 135px;">Responder</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="barraDetalle7">
+                <div class="areaTexto1">
+                    <input type="text" style="background-color: #69D1DC ;height: 300px;width: 1250px;border-color: #69D1DC;">
+                </div>
+                <div class="botonDetalle">
+                    <button style="height: 40px; width: 170px; background-color: blueviolet;width: 135px;color:#fff ;border-color: #fff;">Enviar</button>
+                </div>
+                <div class="iconoEnviar">
+                    <img src="imagenes/enviar.webp" style="height: 25px;width: 35px;" alt="" >
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
